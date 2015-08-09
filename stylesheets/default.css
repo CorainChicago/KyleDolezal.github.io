@@ -1,0 +1,125 @@
+#header {
+  display: block;
+  border: thin solid #2e08d4;
+  height: 6.5em;
+
+
+}
+#Name {
+  height: 100%;
+  font-size: 3em;
+  color: #505050;
+  text-align: center;
+  padding-bottom: 0;
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+
+}
+#line{
+  display: inline;
+  height: 88px;
+  position: absolute;
+  top: 15;
+  width:1px;
+  border-left: thin solid gray;
+}
+#smedia {
+
+}
+.button {
+
+  display: inline-block;
+  border: thin solid black;
+  margin-top: 5em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.readmore {
+
+  display: inline-block;
+  border: thin solid black;
+
+}
+
+.blog-group
+{
+  display: block;
+  border: thin solid #2e08d4;
+  height: 6.5em;
+  width: 95%;
+  margin-left: 2em;
+  height: 10em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+#headshot {
+  margin-top: 4em;
+
+display: inline-block;
+width: 24%;
+margin-left: 5%;
+margin-right: 5%;
+/*border: thin solid #2e08d4;*/
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#my-blurb {
+  font-size: 1.3em;
+  width: 59%;
+  margin-right: 5%;
+  padding-top: 1.5em;
+  display: inline-block;
+  border: thin solid #2e08d4;
+}
+#my-blurb span {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 2em;
+}
+
+
+.blog-blurb {
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+width: 37%;
+ display: inline-block;
+  border: thin solid #2e08d4;
+}
+
+.inner-blurb {
+  line-height: 2.1em;
+font-size: 19px;
+vertical-align: top;
+height: 100%;
+width: 25%;
+border: solid thin gray;
+display: inline-block;
+}
+
+#green {
+  color: darkgreen;
+}
+
+#blue {
+  color: darkblue;
+
+}
+.inner-blurb span {
+  font-weight: bold;
+}
+
+.links {
+  line-height: 2em;
+  display: inline-block;
+
+}
