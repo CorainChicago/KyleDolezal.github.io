@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web culture and technology - a personal perspective</title>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/default.css"/>
+</head>
+
+
+<body>
+
+<div id="header">
+  <div id="Name">
+
+    Kyle Dolezal
+  </div>
+  <div id="line"></div>
+  <div class="button">
+    <span id="smedia"><a href=social_media.html>Social media</a></span>
+  </div>
+  <div class="button">
+    <a href=https://github.com/KyleDolezal>GitHub</a>
+  </div>
+  <div class="button">
+    <a href=blog/index.html>Blog</a>
+  </div>
+  <div class="button">
+    <a href=projects.html>Projects</a>
+  </div>
+  <div class="button">
+    <a href=about.html>About</a>
+  </div>
+  <div class="button">
+    <a href=mailto:kyle.d.dolezal@gmail.com>Contact</a>
+  </div>
+</div>
+
+<main>
+  <h1>Relative versus Absolute versus Fixed Positioning: Who Cares? (You Should)
+</h1>
+
+  <h4>August 10, 2015</h4>
+
+  <section>
+    <p>
+      CSS offers us multiple ways to position HTML elements on a page. When making a webpage, one can use static, absolute, relative, or fixed positioning. Which one is better for a given situation?
+
+    </p>
+    <p>
+        Consider a brief overview of each method.
+
+    </p>
+    <ul>
+      <li>Static positioning lays out elements as they would be laid out by default: as blocks flowing from top to bottom. By default, nothing is laid out beside a static block. This is “layout by default”, from top to bottom.
+</li>
+      <li>Relative positioning also lays out elements from top to bottom. One is able to re-position elements in relation to where they would normally be. If an element would normally be at second street and sixth avenue, one can move the element one block east and one block north to first street and seventh avenue.
+</li>
+      <li>Absolute positioning allows one to position an element in relation to its parent element. If there is no “parent” present, the element will be laid out in relation to the entire HTML document itself. Fixed positioning follows a similar positioning method, but fixed elements remain in the same position on the screen as a user scrolls through a document.
+</li>
+    </ul>
+    <p>
+        Which method is better for a given situation? Consider the following example. The images on the left represent the default layout for static and relative positioning. Those on the right represent fixed and absolute positioning.
+
+    </p>
+    <img src= "imgs/Default.jpg">
+    <p>
+What does it take for a user to position the pictures together, as pictured below?
+
+    </p>
+    <img src= "imgs/complete.png">
+<p>
+  The CSS for positioning one of the pictures using relative positioning is:
+</p>
+<p>#div-3 {
+</p>
+<p>position: relative;</p>
+<p>bottom: 419px;</p>
+<p>  left: 520px;
+</p>
+<p>
+}
+  </p>
+
+<p>
+  And the CSS for absolute and fixed is:
+
+</p>
+<p>#div-3 {
+</p>
+<p>position: absolute (or fixed);</p>
+<p>  left: 522px;
+</p>
+<p>    top: 405px;
+
+</p>
+<p>
+}
+  </p>
+
+<p>
+  They look similar, and the differences seem trivial, but they are not. With absolute and fixed, one can position each picture, in this case, relative to the top-left coordinates of the screen. It is very easy and straightforward to arrange the pictures to fit together. In contrast, for relative positioning, one must position each picture relative to where it would otherwise appear. It is a tedious exercise that lends itself to checking and re-checking in a web browser. In short, for arranging multiple objects in precise locations, some methods are better for others, namely fixed and absolute.
+
+</p>
+<p>
+On the other hand, one who wants to reposition one element up, down, or side-to-side slightly will likely turn to relative positioning.
+
+  </p>
+  <p>
+    While there is no superior method for all cases, some are better than others in a given situation.
+
+  </p>
+  </section>
+</main>
+
+
+
+
+</body>
+</html>
