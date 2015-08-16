@@ -16,6 +16,11 @@
   text-align: center;
 
 }
+
+main {
+  border: thin solid gray;
+  padding: 2em;
+}
 #line{
   display: inline;
   height: 88px;
@@ -34,6 +39,12 @@
   margin-top: 5em;
   margin-left: 2em;
   margin-right: 2em;
+}
+
+.code {
+  line-height: 0em;
+  padding-left: 3em;
+  font-family:"Times New Roman", Georgia, Serif;
 }
 
 .readmore {
