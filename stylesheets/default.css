@@ -23,11 +23,11 @@ main {
 }
 #line{
   display: inline;
-  height: 88px;
+  height: 100px;
   position: absolute;
   top: 15;
   width:1px;
-  border-left: thin solid gray;
+  border-left: thin solid lightgray;
 }
 #smedia {
 
